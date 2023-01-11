@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a4f7e4-591a-4d39-ad63-7cee11ce1058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/FactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/dao/CityDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/dao/CountryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/Continent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/CountryLanguage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/mapper/CityCountryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/redis/CityCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/redis/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/redis/RedisRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/MainRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spy.properties" afterDir="false" />
+    <list default="true" id="22a4f7e4-591a-4d39-ad63-7cee11ce1058" name="Changes" comment="done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -106,8 +88,17 @@
       <updated>1672725969432</updated>
       <workItem from="1672725970650" duration="4222000" />
       <workItem from="1672731325218" duration="1268000" />
-      <workItem from="1672812156701" duration="4130000" />
+      <workItem from="1672812156701" duration="4780000" />
+      <workItem from="1673147280976" duration="37000" />
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1672816368135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672816368135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +114,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>

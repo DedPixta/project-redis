@@ -1,10 +1,11 @@
-package dev.makos.redis.redis;
+package dev.makos.redis.repository.redis;
 
 import dev.makos.redis.domain.Continent;
 
 import java.math.BigDecimal;
 import java.util.Set;
 
+@SuppressWarnings("unused")
 public class CityCountry {
     private Integer id;
 

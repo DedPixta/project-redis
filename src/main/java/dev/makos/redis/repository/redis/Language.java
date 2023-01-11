@@ -1,7 +1,8 @@
-package dev.makos.redis.redis;
+package dev.makos.redis.repository.redis;
 
 import java.math.BigDecimal;
 
+@SuppressWarnings("unused")
 public class Language {
     private String language;
     private Boolean isOfficial;

@@ -3,8 +3,8 @@ package dev.makos.redis.mapper;
 import dev.makos.redis.domain.City;
 import dev.makos.redis.domain.Country;
 import dev.makos.redis.domain.CountryLanguage;
-import dev.makos.redis.redis.CityCountry;
-import dev.makos.redis.redis.Language;
+import dev.makos.redis.repository.redis.CityCountry;
+import dev.makos.redis.repository.redis.Language;
 
 import java.util.List;
 import java.util.Set;

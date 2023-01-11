@@ -2,10 +2,9 @@ package dev.makos.redis;
 
 import dev.makos.redis.domain.City;
 import dev.makos.redis.mapper.CityCountryMapper;
-import dev.makos.redis.redis.CityCountry;
-import dev.makos.redis.redis.RedisRunner;
+import dev.makos.redis.repository.redis.CityCountry;
+import dev.makos.redis.repository.redis.RedisRunner;
 import dev.makos.redis.repository.MainRepository;
-import io.lettuce.core.RedisClient;
 import org.hibernate.SessionFactory;
 
 import java.util.List;

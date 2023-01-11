@@ -1,4 +1,4 @@
-package dev.makos.redis.dao;
+package dev.makos.redis.repository.dao;
 
 import dev.makos.redis.domain.City;
 import org.hibernate.SessionFactory;

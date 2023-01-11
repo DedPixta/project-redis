@@ -1,8 +1,7 @@
 package dev.makos.redis.repository;
 
-import dev.makos.redis.Main;
-import dev.makos.redis.dao.CityDAO;
-import dev.makos.redis.dao.CountryDAO;
+import dev.makos.redis.repository.dao.CityDAO;
+import dev.makos.redis.repository.dao.CountryDAO;
 import dev.makos.redis.domain.City;
 import dev.makos.redis.domain.Country;
 import dev.makos.redis.domain.CountryLanguage;
@@ -13,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+@SuppressWarnings("unused")
 public class MainRepository {
 
     private final SessionFactory sessionFactory;

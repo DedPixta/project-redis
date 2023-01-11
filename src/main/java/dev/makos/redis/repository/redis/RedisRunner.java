@@ -1,4 +1,4 @@
-package dev.makos.redis.redis;
+package dev.makos.redis.repository.redis;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -18,6 +18,7 @@ public class RedisRunner {
         redisClient = prepareRedisClient();
     }
 
+    @SuppressWarnings("unused")
     public RedisClient prepareRedisClient() {
         RedisClient redisClient = RedisClient.create(RedisURI.create("localhost", 6379));
         try (StatefulRedisConnection<String, String> connection = redisClient.connect()) {
