@@ -33,3 +33,13 @@ public static final int NUMBER_OF_QUERIES = 400;
 to see the difference in speed of getting data from MySQL and Redis.
 
 ![img.png](src/main/resources/img.png)
+
+## Technologies used
+- MySQL
+- Hibernate
+- Redis
+- Lettuce
+- P6Spy
+- Lombok
+- Logger (Logback, Slf4)
+- Docker
