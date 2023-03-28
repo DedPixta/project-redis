@@ -1,4 +1,4 @@
-package dev.makos.redis;
+package dev.makos.redis.repository;
 
 import dev.makos.redis.domain.City;
 import dev.makos.redis.domain.Country;

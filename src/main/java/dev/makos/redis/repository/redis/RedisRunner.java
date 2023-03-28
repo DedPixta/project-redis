@@ -6,23 +6,28 @@ import io.lettuce.core.RedisClient;
 import io.lettuce.core.RedisURI;
 import io.lettuce.core.api.StatefulRedisConnection;
 import io.lettuce.core.api.sync.RedisStringCommands;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
 
+@Slf4j
 public class RedisRunner {
+    public static final int PORT = 6379;
+    public static final String URI = "localhost";
+
     private final ObjectMapper mapper;
     private final RedisClient redisClient;
 
     public RedisRunner() {
         this.mapper = new ObjectMapper();
-        redisClient = prepareRedisClient();
+        this.redisClient = prepareRedisClient();
     }
 
     @SuppressWarnings("unused")
     public RedisClient prepareRedisClient() {
-        RedisClient redisClient = RedisClient.create(RedisURI.create("localhost", 6379));
+        RedisClient redisClient = RedisClient.create(RedisURI.create(URI, PORT));
         try (StatefulRedisConnection<String, String> connection = redisClient.connect()) {
-            System.out.println("\nConnected to Redis\n");
+            log.info("Connected to Redis");
         }
         return redisClient;
     }

@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22a4f7e4-591a-4d39-ad63-7cee11ce1058" name="Changes" comment="done">
+    <list default="true" id="22a4f7e4-591a-4d39-ad63-7cee11ce1058" name="Changes" comment="dao and redis moved to repository">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dump-hibernate-final.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/FactoryProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/FactoryProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/Continent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/Continent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/CountryLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/domain/CountryLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/mapper/CityCountryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/mapper/CityCountryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/MainRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/dao/CountryDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/redis/CityCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/redis/CityCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/redis/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/redis/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/redis/RedisRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/makos/redis/repository/redis/RedisRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spy.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spy.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,29 +46,35 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Jnu3J38IyBp3RkUXjk8KzF3Yyv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java/IdeaProjects/project-redis/src/main/resources",
+    "nodejs_package_manager_path": "npm"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -57,14 +83,25 @@
       <recent name="dev.makos.redis.dao" />
       <recent name="dev.makos.redis.domain" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\project-redis\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\project-redis\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.makos.redis.Main" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.makos.redis.Runner" />
       <module name="project-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.makos.redis.*" />
+          <option name="PATTERN" value="dev.makos.redis.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,7 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +127,10 @@
       <workItem from="1672731325218" duration="1268000" />
       <workItem from="1672812156701" duration="4780000" />
       <workItem from="1673147280976" duration="37000" />
+      <workItem from="1673442787169" duration="452000" />
+      <workItem from="1673505576583" duration="6000" />
+      <workItem from="1680006770567" duration="11000" />
+      <workItem from="1680006812586" duration="8408000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1672816368135</created>
@@ -98,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672816368135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dao and redis moved to repository">
+      <created>1673443020683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673443020683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="dao and redis moved to repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="dao and redis moved to repository" />
   </component>
 </project>
